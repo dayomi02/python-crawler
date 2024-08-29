@@ -1,0 +1,26 @@
+version: "3.1"
+
+volumes:
+  dweax-fabric-crawler-home:
+    driver: local
+    driver_opts:
+      type: "none"
+      o: "bind"
+      device: "/home/dweax/leetan/dweax-fabric-crawler/app"
+
+services:
+  dweax-fabric-crawler:
+    image: dweax-fabric-crawler:1.0
+    container_name: dweax-fabric-crawler
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Seoul
+      - LANG=ko_KR.UTF-8
+    volumes:
+      - type: volume
+        source: dweax-fabric-crawler-home
+        target: /app
+        volume:
+          nocopy: true
+    ports:
+      - "8083:8083"

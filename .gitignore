@@ -1,0 +1,13 @@
+# .gitignore
+
+# Ignore the venv directory
+
+.vscode/
+venv/
+__pycache__/
+logs/
+file/
+
+*.pcy
+*.xlxs
+*.xls

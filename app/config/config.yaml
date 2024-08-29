@@ -1,0 +1,19 @@
+# database
+database:
+  postgresql:
+    host: dweaxm.iptime.org
+    port: 45431
+    database: postgres
+    user: postgres
+    password: qlalfqjsgh
+  mongo:
+    host: dweaxm.iptime.org
+    port: 27016
+    database: mongo
+    user: root
+    password: qlalfqjsgh
+
+# file
+file_dir:
+  excel: file/excel/
+  excel_complete: file/excel/complete

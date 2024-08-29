@@ -1,0 +1,18 @@
+#standard meta
+SOURCE_DATA_TYPE = "type"
+MONGO_COLLECTION_NAME = "source"
+REGION = "region"
+TITLE = "title"
+ITEM = "item"
+CATAGORY1 = "category1"
+CATEGORY2 = "category2"
+ADDRESS_NEW = "address_new"
+ADDRESS_OLD = "address_old"
+GEO_LOCATION = "geo_location"
+PHONE = "phone"
+LATITUDE = "latitude"
+LONGITUDE = "longitude"
+DESCRIPTION = "description"
+ETC = "etc"
+
+SPLIT_STR = "@/@"
